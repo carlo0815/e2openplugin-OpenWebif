@@ -1,0 +1,104 @@
+plugin/plugin.py:107:1: E402 module level import not at top of file
+plugin/plugin.py:211:6: E714 test for object identity should be 'is not'
+plugin/plugin.py:215:6: E714 test for object identity should be 'is not'
+plugin/plugin.py:258:16: E261 at least two spaces before inline comment
+plugin/plugin.py:258:17: E262 inline comment should start with '# '
+plugin/plugin.py:262:3: E123 closing bracket does not match indentation of opening bracket's line
+plugin/httpserver.py:164:25: F841 local variable 'e' is assigned to but never used
+plugin/httpserver.py:247:7: E123 closing bracket does not match indentation of opening bracket's line
+plugin/httpserver.py:307:3: F841 local variable 'host' is assigned to but never used
+plugin/httpserver.py:479:20: F841 local variable 'e' is assigned to but never used
+plugin/controllers/defaults.py:18:2: E301 expected 1 blank line, found 0
+plugin/controllers/defaults.py:28:1: E305 expected 2 blank lines after class or function definition, found 1
+plugin/controllers/defaults.py:68:1: E115 expected an indented block (comment)
+plugin/controllers/defaults.py:105:2: F841 local variable 'PICON_EXT' is assigned to but never used
+plugin/controllers/defaults.py:127:2: F841 local variable 'PICON_PATH' is assigned to but never used
+plugin/controllers/defaults.py:223:3: F401 'enigma.setPrevAsciiCode' imported but unused
+plugin/controllers/transcoding.py:115:2: E301 expected 1 blank line, found 0
+plugin/controllers/transcoding.py:134:2: E301 expected 1 blank line, found 0
+plugin/controllers/NET.py:199:34: W605 invalid escape sequence '\W'
+plugin/controllers/web.py:58:18: W605 invalid escape sequence '\:'
+plugin/controllers/web.py:58:21: W605 invalid escape sequence '\d'
+plugin/controllers/web.py:925:69: E203 whitespace before ','
+plugin/controllers/web.py:925:70: E231 missing whitespace after ','
+plugin/controllers/web.py:2407:1: E402 module level import not at top of file
+plugin/controllers/root.py:42:1: F401 'Plugins.Extensions.OpenWebif.controllers.defaults.setMobile' imported but unused
+plugin/controllers/mobile.py:132:3: E722 do not use bare 'except'
+plugin/controllers/file.py:69:21: W605 invalid escape sequence '\:'
+plugin/controllers/file.py:69:24: W605 invalid escape sequence '\d'
+plugin/controllers/utilities.py:14:8: E126 continuation line over-indented for hanging indent
+plugin/controllers/utilities.py:328:24: E261 at least two spaces before inline comment
+plugin/controllers/utilities.py:332:19: E261 at least two spaces before inline comment
+plugin/controllers/BouquetEditor.py:15:47: E262 inline comment should start with '# '
+plugin/controllers/BouquetEditor.py:374:6: E117 over-indented
+plugin/controllers/BouquetEditor.py:594:4: F841 local variable 'lines' is assigned to but never used
+plugin/controllers/BouquetEditor.py:726:12: F821 undefined name 'MODE_RADIO'
+plugin/controllers/ajax.py:103:35: F841 local variable 'extEventInfoProvider' is assigned to but never used
+plugin/controllers/ajax.py:177:5: E124 closing bracket does not match visual indentation
+plugin/controllers/ajax.py:276:30: F821 undefined name '_'
+plugin/controllers/AT.py:89:4: F841 local variable 'lines' is assigned to but never used
+plugin/controllers/AT.py:179:25: F841 local variable 'e' is assigned to but never used
+plugin/controllers/base.py:211:6: E117 over-indented (comment)
+plugin/controllers/base.py:215:6: E117 over-indented (comment)
+plugin/controllers/base.py:230:6: E117 over-indented (comment)
+plugin/controllers/base.py:393:20: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+plugin/controllers/BQE.py:298:6: E722 do not use bare 'except'
+plugin/controllers/models/timers.py:191:3: E303 too many blank lines (2)
+plugin/controllers/models/timers.py:328:5: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:333:5: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:438:6: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:443:6: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/timers.py:711:136: F821 undefined name 'serviceref'
+plugin/controllers/models/timers.py:724:16: F823 local variable 'list' defined as a builtin referenced before assignment
+plugin/controllers/models/timers.py:883:5: E722 do not use bare 'except'
+plugin/controllers/models/info.py:442:30: W605 invalid escape sequence '\ '
+plugin/controllers/models/info.py:535:37: E261 at least two spaces before inline comment
+plugin/controllers/models/info.py:621:22: F841 local variable 'error' is assigned to but never used
+plugin/controllers/models/info.py:622:1: E115 expected an indented block (comment)
+plugin/controllers/models/info.py:635:17: E261 at least two spaces before inline comment
+plugin/controllers/models/info.py:827:22: F841 local variable 'error' is assigned to but never used
+plugin/controllers/models/info.py:828:1: E115 expected an indented block (comment)
+plugin/controllers/models/OWFMovieList.py:13:1: F401 'Tools.FuzzyDate.FuzzyTime' imported but unused
+plugin/controllers/models/OWFMovieList.py:15:1: F401 'Tools.Directories.resolveFilename' imported but unused
+plugin/controllers/models/OWFMovieList.py:17:1: F401 'ServiceReference.ServiceReference' imported but unused
+plugin/controllers/models/OWFMovieList.py:48:3: E722 do not use bare 'except'
+plugin/controllers/models/OWFMovieList.py:152:1: E115 expected an indented block (comment)
+plugin/controllers/models/OWFMovieList.py:192:27: E261 at least two spaces before inline comment
+plugin/controllers/models/OWFMovieList.py:223:23: E261 at least two spaces before inline comment
+plugin/controllers/models/OWFMovieList.py:223:24: E262 inline comment should start with '# '
+plugin/controllers/models/stream.py:73:2: F841 local variable 'model' is assigned to but never used
+plugin/controllers/models/stream.py:74:2: F841 local variable 'machinebuild' is assigned to but never used
+plugin/controllers/models/stream.py:131:4: E741 ambiguous variable name 'l'
+plugin/controllers/models/stream.py:181:3: F841 local variable 'model' is assigned to but never used
+plugin/controllers/models/stream.py:182:3: F841 local variable 'machinebuild' is assigned to but never used
+plugin/controllers/models/stream.py:235:20: W605 invalid escape sequence '\:'
+plugin/controllers/models/stream.py:235:23: W605 invalid escape sequence '\d'
+plugin/controllers/models/movies.py:28:1: F401 'time.time' imported but unused
+plugin/controllers/models/movies.py:319:2: F841 local variable 'tag' is assigned to but never used
+plugin/controllers/models/movies.py:320:2: F841 local variable 'directory' is assigned to but never used
+plugin/controllers/models/movies.py:658:29: E741 ambiguous variable name 'l'
+plugin/controllers/models/movies.py:711:9: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/movies.py:728:9: E123 closing bracket does not match indentation of opening bracket's line
+plugin/controllers/models/services.py:418:26: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:418:46: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:418:51: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:418:55: W605 invalid escape sequence '\d'
+plugin/controllers/models/services.py:418:59: W605 invalid escape sequence '\s'
+plugin/controllers/models/services.py:431:6: E741 ambiguous variable name 'l'
+plugin/controllers/models/services.py:454:7: F841 local variable 'isprotected' is assigned to but never used
+plugin/controllers/models/services.py:756:72: E261 at least two spaces before inline comment
+plugin/controllers/models/services.py:756:73: E262 inline comment should start with '# '
+plugin/controllers/models/services.py:1107:31: E226 missing whitespace around arithmetic operator
+plugin/controllers/models/services.py:1131:7: E126 continuation line over-indented for hanging indent
+plugin/controllers/models/services.py:1136:6: E126 continuation line over-indented for hanging indent
+plugin/controllers/models/owibranding.py:55:3: E731 do not assign a lambda expression, use a def
+plugin/controllers/models/owibranding.py:69:14: E741 ambiguous variable name 'l'
+plugin/controllers/models/owibranding.py:165:6: E117 over-indented
+plugin/controllers/models/owibranding.py:793:20: E261 at least two spaces before inline comment
+plugin/controllers/models/message.py:17:3: E203 whitespace before ':'
+plugin/controllers/models/message.py:18:3: E203 whitespace before ':'
+plugin/controllers/models/message.py:19:3: E203 whitespace before ':'
+plugin/controllers/models/message.py:20:3: E203 whitespace before ':'
+plugin/controllers/models/mediaplayer.py:192:22: W605 invalid escape sequence '\.'
+plugin/controllers/models/mediaplayer.py:196:22: W605 invalid escape sequence '\.'
+plugin/controllers/models/mediaplayer.py:200:22: W605 invalid escape sequence '\.'
