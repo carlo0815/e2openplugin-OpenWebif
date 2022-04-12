@@ -359,6 +359,9 @@ class BaseController(resource.Resource):
 			elif variant == "ncam":
 				extras.append({'key': url, 'description': _("NCam Webinterface"), 'nw': '1'})
 
+		url1 = "http://%s:%s" % (request.getRequestHostname(), config.Fileload.fileuploadport.value)
+		extras.append({'key': url1, 'description': _("FileLoad"), 'nw': '1'})
+
 		if HASAUTOTIMER:
 			extras.append({'key': 'ajax/at', 'description': _('AutoTimers')})
 
